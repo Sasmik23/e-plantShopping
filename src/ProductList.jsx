@@ -212,6 +212,9 @@ function ProductList({ onHomeClick }) {
                     strokeWidth="2"
                   ></path>
                 </svg>
+                <span className="cart_quantity_count">
+                    {cartItems.reduce((total, item) => total + item.quantity, 0)}
+                </span>
               </h1>
             </a>
           </div>

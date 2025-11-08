@@ -1,9 +1,10 @@
 .about-us-container {
-    width: 1000px;
-    /* margin: 0 auto; */
-    /* padding: 20px; */
-    /* background-color: red; */
-    text-align: justify;
+  width: 90%;              /* Take 90% of the screen width */
+  max-width: 1200px;       /* But never exceed 1200px on large monitors */
+  margin: 0 auto;          /* Center the container horizontally */
+  text-align: justify;
+  padding: 10px 20px;      /* Add side breathing room */
+  box-sizing: border-box;  /* Prevent padding from increasing total width */
   }
   
   .about-us-heading {
@@ -18,11 +19,14 @@
     color: #666;
     margin-bottom: 30px;
     text-align: center;
+    margin-top: 10px;
   }
   
   .about-us-content {
     font-size: 18px;
     margin-bottom: 20px;
+    text-align: center;
+
   }
   .plant_logo_right{
     text-align: right;
